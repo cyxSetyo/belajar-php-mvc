@@ -1,0 +1,12 @@
+{
+    "name": "cyx/belajar-php-mvc",
+    "description": "Belajar Php Mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cyxSetyo",
+            "email": "98861415+cyxSetyo@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
