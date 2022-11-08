@@ -2,10 +2,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$path = '/index';
+use BelajarPhpMvc\Belajar\PHP\MVC\App\Router;
 
-if(isset($_SERVER['PATH_INFO'])){
-    $path = $_SERVER['PATH_INFO'];
-}
+Router::add('GET', '/', 'HomeController', 'index');
+Router::add('GET', '/login', 'UserController', 'index');
 
-require_once __DIR__ . '/../app/view/' . $path . 'php';
+Router::run();
